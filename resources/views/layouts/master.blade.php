@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @s3a317097
- Sign out
- Watch 0
-  Star 0  Fork 0 WISD3A432016/lara_0818_u2p4
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-Tree: 737c15b4b0 Find file Copy pathlara_0818_u2p4/resources/views/layouts/master.blade.php
-737c15b  24 days ago
-@s3A432016 s3A432016 Exercise4-6 : 修改主樣板內link 標籤css檔案的參考位置，利用asset()輔助方法
-1 contributor
-RawBlameHistory      
-72 lines (50 sloc)  2.44 KB
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,11 +12,11 @@ RawBlameHistory
     <title>@yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
-    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  -->
+  
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <!-- <link href="css/clean-blog.min.css" rel="stylesheet">  -->
+   
     <link href="{{asset('css/clean-blog.min.css')}}" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -54,7 +36,7 @@ RawBlameHistory
 </head>
 
 <body>
-
+   
     <!-- Navigation -->
     @include('layouts.partials.navigation')
 
@@ -88,15 +70,3 @@ RawBlameHistory
 </body>
 
 </html>
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
